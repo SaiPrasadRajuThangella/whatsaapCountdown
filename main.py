@@ -22,7 +22,7 @@ days_left = (event_date - today).days
 message = client.messages.create(
     from_=from_whatsapp,
     to=to_whatsapp,
-    body=f"📅 Countdown: {days_left} days left until your event!"
+    body=f"📅 Countdown: {days_left} days left until your new year!"
 )
 
 print(f"Message sent! SID: {message.sid}")
